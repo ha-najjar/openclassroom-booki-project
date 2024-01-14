@@ -17,8 +17,8 @@
         <header>
             <img  class="logo" src="./images/logo/Booki.png" alt="logo booki" srcset="./images/logo/Booki@3x.png 3x" >
             <ul class="menu">
-                <li class="active"> <a href="#">Hébergements</a></li>
-                <li><a href="#">Activités</a></li>
+                <li><a href="#hbr-marseille">Hébergements</a></li>
+                <li><a href="#actv-marseille">Activités</a></li>
             </ul>
 
         </header>
@@ -30,7 +30,7 @@
                 </div>
                 <form class="search-bar">
                          <span class="icon"><i class="fa-solid fa-location-dot"></i></span>
-                         <input type="text" placeholder="Marseille, France" id="">
+                         <input type="text" value="Marseille, France">
                         <button type="submit">
                             <i class="fa-solid fa-magnifying-glass"></i>
                             <span class="btn-label">Rechercher</span>
@@ -51,7 +51,7 @@
                             <i class="fa-solid fa-heart"></i>
                             <span>Romantique</span>
                           </button>
-                          <button type="button" class="active">
+                          <button type="button" >
                             <i class="fa-solid fa-fire"></i>
                             <span>Nos pépites</span>
                           </button>
@@ -68,7 +68,7 @@
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
                     <div class="hebergements-title">
-                        <h2 class="section-title">Hébergements à Marseille</h2>
+                        <h2 class="section-title" id="hbr-marseille">Hébergements à Marseille</h2>
                     </div>
                     <div class="hebergements-cards"> 
                     <a href="#">
@@ -189,7 +189,7 @@
                         </a>
                         </div>
                         <div class="show-more">
-                            <span>Afficher plus</span>
+                            <a href="#">Afficher plus</a>
                         </div>
 
                 </section>
@@ -262,7 +262,7 @@
                 
 
             </div>
-            <section class="activities">
+            <section class="activities" id="actv-marseille">
                 <div class="activities-title">
                     <h2 class="section-title">Activités à Marseille</h2>
                     
